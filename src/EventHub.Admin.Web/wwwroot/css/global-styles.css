@@ -1,0 +1,10 @@
+:root .lpx-theme-light {
+  --lpx-logo: url('/images/logo/logo-dark.png');   /* Your logo for light mode */
+  --lpx-logo-icon: url('/images/logo/logo-dark.png');  /* Small icon version */
+}
+
+:root .lpx-theme-dim,
+:root .lpx-theme-dark {
+  --lpx-logo: url('/images/logo/logo-light.png');  /* White version for dark mode */
+  --lpx-logo-icon: url('/images/logo/logo-light.png');
+}
